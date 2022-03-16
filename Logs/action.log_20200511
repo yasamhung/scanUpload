@@ -1,0 +1,34 @@
+2020-05-11 11:49:22,603 [128] DEBUG scanDoc1_click - JSONstring - {"Level_Select_1":"bbbb","Level_Select_2":"簡報","Level_Select_3":"2020","Level_Select_4":"05","TextBox_filename":"0511114740"}
+2020-05-11 11:49:22,619 [128] DEBUG scanDoc1_click - wshttpURL - http://13.188.89.163/scanUpload_SH/JFS_WS.asmx
+2020-05-11 14:31:58,561 [50] INFO  JFS_WS - scanDate - 11111, UserID - 22222, scanJob - 333333, JSONstring - ?]u, filename - 2222
+2020-05-11 14:31:58,771 [50] ERROR JFS_WS - Error(SaveScanFile) - Unexpected character encountered while parsing value: ?. Path '', line 0, position 0.
+2020-05-11 14:34:17,159 [50] INFO  JFS_WS - outPath - D:\test\FACEMAY\\\
+2020-05-11 14:34:17,174 [50] INFO  JFS_WS - outname - 
+2020-05-11 14:34:17,179 [50] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\aaaaa' 的一部分。
+2020-05-11 14:36:43,176 [65] INFO  JFS_WS - create network Path - \\13.188.89.163\Archive
+2020-05-11 14:39:20,940 [65] INFO  JFS_WS - outPath - \\13.188.89.163\Archive\\\
+2020-05-11 14:39:20,964 [65] INFO  JFS_WS - outname - 
+2020-05-11 14:39:21,004 [65] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\aaaaa' 的一部分。
+2020-05-11 15:03:03,671 [108] INFO  JFS_WS - outPath - \\13.188.89.163\Archive\\\
+2020-05-11 15:03:03,696 [108] INFO  JFS_WS - outname - 
+2020-05-11 15:03:03,711 [108] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\aaaaa' 的一部分。
+2020-05-11 15:03:29,331 [22] INFO  JFS_WS - outPath - \\13.188.89.163\Archive\\\
+2020-05-11 15:03:29,331 [22] INFO  JFS_WS - outname - 
+2020-05-11 15:03:29,331 [22] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\aaaaa' 的一部分。
+2020-05-11 15:03:30,131 [108] INFO  JFS_WS - outPath - \\13.188.89.163\Archive\\\
+2020-05-11 15:03:30,131 [108] INFO  JFS_WS - outname - 
+2020-05-11 15:03:30,131 [108] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\aaaaa' 的一部分。
+2020-05-11 15:03:30,691 [13] INFO  JFS_WS - outPath - \\13.188.89.163\Archive\\\
+2020-05-11 15:03:30,691 [13] INFO  JFS_WS - outname - 
+2020-05-11 15:03:30,701 [13] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\aaaaa' 的一部分。
+2020-05-11 15:03:31,031 [21] INFO  JFS_WS - outPath - \\13.188.89.163\Archive\\\
+2020-05-11 15:03:31,031 [21] INFO  JFS_WS - outname - 
+2020-05-11 15:03:31,031 [21] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\aaaaa' 的一部分。
+2020-05-11 15:07:06,151 [108] INFO  JFS_WS - outPath - \\13.188.89.163\Archive\\\
+2020-05-11 15:07:06,323 [108] ERROR JFS_WS - Error(CreateDirectory) - 找不到路徑 '\\13.188.89.163\Archive' 的一部分。
+2020-05-11 15:07:06,323 [108] INFO  JFS_WS - outname - 
+2020-05-11 15:07:06,354 [108] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\zaaa' 的一部分。
+2020-05-11 15:08:07,366 [31] INFO  JFS_WS - create network Path - \\13.188.89.163\Archive
+2020-05-11 15:09:50,803 [31] INFO  JFS_WS - outPath - \\13.188.89.163\Archive\\\
+2020-05-11 15:09:50,819 [31] INFO  JFS_WS - outname - 
+2020-05-11 15:09:50,834 [31] ERROR JFS_WS - Error(SaveScanFile) - 找不到路徑 'c:\inetpub\ftproot\input\aaa' 的一部分。

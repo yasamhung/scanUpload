@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!-- edited with job flow editor -->
+<soapENV:Envelope xml:lang="zh-TW" xmlns:jt="http://www.fujixerox.co.jp/2003/12/ssm/jobTemplate" xmlns:otjt="http://tempuri.org/" xmlns:soapENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapENV:Header>
+		<jt:JobTemplate jt:version="3.0.11" jt:profile="2">
+			<jt:Name>Swa_WebService_NUMS v6</jt:Name>
+			<jt:Description>Scanned documents will be saved.</jt:Description>
+			<jt:Copyright></jt:Copyright>
+			<jt:Author></jt:Author>
+			<jt:CreatedBy jt:identifier="1">Job Flow Editor 4.0.6.0</jt:CreatedBy>
+			<jt:CreationDateTime>2013-01-24T16:36:12+08:00</jt:CreationDateTime>
+			<jt:ModificationDateTime>2013-09-13T10:59:12+08:00</jt:ModificationDateTime>
+			<jt:TargetInterpreters><jt:MachineOID>1.3.6.1.4.1.297.1.11.93.1</jt:MachineOID></jt:TargetInterpreters><jt:ExecutionHints>
+				<jt:Resources>
+					<jt:Resource>Acquire/Scanner/Color</jt:Resource>
+					<jt:Resource>Acquire/Scanner/BW</jt:Resource>
+					<jt:Resource>Invoke/WebService/Attachment</jt:Resource>
+				</jt:Resources>
+			</jt:ExecutionHints>
+			<jt:Keywords>
+				<jt:Keyword>_ID4R_3E42B151B6C44ECDB407DF86CCAF2555</jt:Keyword>
+			</jt:Keywords>
+		</jt:JobTemplate>
+	</soapENV:Header>
+	<soapENV:Body>
+		<jt:ProcessRequest>
+			<jt:Setup>
+				<jt:OperatorInputs>
+				</jt:OperatorInputs>
+				<jt:ExceptionHandler xmlns:jt="http://www.fujixerox.co.jp/2003/12/ssm/jobTemplate">
+					<jt:CatchAll jt:action="AbortProcess"/>
+				</jt:ExceptionHandler><jt:Result xmlns:jt="http://www.fujixerox.co.jp/2003/12/ssm/jobTemplate"/>
+			</jt:Setup>
+			<jt:DocumentProcess>
+				<jt:Assign xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ss="http://WebScanPrint/ExampleNamespace/StrageService">
+				</jt:Assign>
+				<jt:Acquire jt:container="container001" jt:label="Scan">
+					<jt:Scanner>
+						<jt:InputMediumSize>
+              <jt:StandardMediumSize>Auto</jt:StandardMediumSize>
+						</jt:InputMediumSize>
+						<jt:HeadPosition>Default</jt:HeadPosition>
+						<jt:Duplex>Duplex</jt:Duplex>
+						<jt:ImageMode>Mixed</jt:ImageMode>
+						<jt:ColorMode>BlackAndWhite</jt:ColorMode>
+						<jt:EnableBackgroundElimination>true</jt:EnableBackgroundElimination>
+						<jt:Darkness>60</jt:Darkness>
+						<jt:Contrast>0</jt:Contrast>
+						<jt:EdgeErase><jt:Instruction>Default</jt:Instruction></jt:EdgeErase><jt:Resolution>200x200/dpi</jt:Resolution>
+						<jt:EnableNextOriginal>false</jt:EnableNextOriginal>
+						<jt:ImageCount></jt:ImageCount>
+            <jt:BlankImageCount>0</jt:BlankImageCount>
+						<jt:CreateMultiLayers>None</jt:CreateMultiLayers>
+						<jt:OutputMediumSize>
+							<jt:StandardMediumSize>NotSpecified</jt:StandardMediumSize>
+						</jt:OutputMediumSize>
+						<jt:Magnification>
+							<jt:Isotropic>100</jt:Isotropic>
+						</jt:Magnification>
+						<jt:Compression>
+						</jt:Compression>
+					</jt:Scanner>
+				</jt:Acquire>
+                                <jt:Assign>
+                                  <jt:Duplicate xsi:type="jt:Replace">
+                                    <jt:Source jt:xpath="//jt:Host/jt:Address/jt:Ipv4/node()"></jt:Source>
+                                    <jt:Destination jt:xpath="//otjt:Ipv4/node()"></jt:Destination>
+                                  </jt:Duplicate>
+                                  <jt:Duplicate xsi:type="jt:Replace">
+                                    <jt:Source jt:xpath="//jt:SerialNumber/node()"></jt:Source>
+                                    <jt:Destination jt:xpath="//otjt:SerialNumber/node()"></jt:Destination>
+                                  </jt:Duplicate>
+                                  <jt:Duplicate xsi:type="jt:Replace">
+                                    <jt:Source jt:xpath="//jt:ImageCount/node()"></jt:Source>
+                                    <jt:Destination jt:xpath="//otjt:ImageCount/node()"></jt:Destination>
+                                  </jt:Duplicate>
+                                </jt:Assign> 
+				<jt:Invoke jt:name="storageService" jt:container="container001">
+					<jt:Profile>
+						<jt:Description jt:identifier="00000"></jt:Description>
+						<jt:Target>http://13.188.89.167/scanUpload_NUMS/JFS_WS.asmx</jt:Target>
+						<jt:Type>SOAP/1.1</jt:Type>
+						<jt:Schema>
+							<jt:Namespace>http://tempuri.org/</jt:Namespace>
+							<jt:Location>http://13.188.89.167/scanUpload_NUMS/JFS_WS.asmx?WSDL</jt:Location>
+						</jt:Schema>
+						<jt:MethodName>StoreDocument</jt:MethodName>
+					</jt:Profile>
+					<jt:Request>
+						<jt:MessageType>RPC/Synchronous</jt:MessageType>
+						<jt:AuthInfo>
+							<jt:Method>Rfc2617</jt:Method>
+							<jt:OperatorName></jt:OperatorName>
+							<jt:Password></jt:Password>
+						</jt:AuthInfo>
+						<jt:SOAPAction>http://tempuri.org/SaveScanFile</jt:SOAPAction>
+						<jt:Prototype>
+							<jt:Message>
+								<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+									<soap:Body>
+                    <otjt:SaveScanFile xmlns:otjt="http://tempuri.org/">
+                      <otjt:scanDate>20150526112233</otjt:scanDate>
+                      <otjt:ImageCount>1</otjt:ImageCount>
+                      <otjt:Ipv4>1</otjt:Ipv4>
+                      <otjt:SerialNumber>1</otjt:SerialNumber>
+                    </otjt:SaveScanFile>
+									</soap:Body>
+								</soap:Envelope>
+							</jt:Message>
+							<jt:Attachment jt:transfer="true">
+								<jt:Regulation>SOAPMessagesWithAttachments</jt:Regulation>
+								<jt:Serialization>
+									<jt:Compression>NotSpecified</jt:Compression>
+									<jt:Format>TIFF/Multi</jt:Format>
+                  <jt:SkewCorrection>
+                    <jt:LINE jt:rangeMin="0" jt:rangeMax="5" />
+                  </jt:SkewCorrection>
+                  <jt:BlankImageElimination></jt:BlankImageElimination>
+								</jt:Serialization>
+								<jt:ContentTransferEncoding>base64</jt:ContentTransferEncoding>
+							</jt:Attachment>
+						</jt:Prototype>
+						<jt:TimeoutValue>180</jt:TimeoutValue>
+					</jt:Request>
+					<jt:Response>
+						<jt:Handling>None</jt:Handling>
+					</jt:Response>
+				</jt:Invoke>
+			</jt:DocumentProcess>
+		</jt:ProcessRequest>
+	</soapENV:Body>
+</soapENV:Envelope>

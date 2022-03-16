@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>Fuji Xerox Taiwan Corporation</LicensedTo>
+    <LicenseType>Developer OEM</LicenseType>
+    <LicenseNote>Limited to 1 developer.</LicenseNote>
+    <OrderID>140421021509</OrderID>
+    <OEM>This is a redistributable license</OEM>
+    <Products>
+      <Product>Aspose.BarCode for .NET</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>ccb09efe-302a-4052-a3cf-644e647a90ff</SerialNumber>
+    <SubscriptionExpiry>20150421</SubscriptionExpiry>
+    <LicenseVersion>2.2</LicenseVersion>
+  </Data>
+  <Signature>IIPwWdAlXO5gTDIn3tDXtoOkOk2EQuevlKEOW/UgelJic1Lpmd7czRgn2/NlD3iLRN7B8U6bEk+l6HrJlOEU4RkCso2wD5jq+Ga9O1IFkjtey1ldcsLltJvBBVaWMzm5CeUKj/Yecl8AchTusayNWddL8YSZLgk28mdFinC2gUk=</Signature>
+</License>

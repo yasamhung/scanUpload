@@ -1,0 +1,382 @@
+﻿#scan_Nursing {            
+	position:	absolute;
+	left	:	200px;
+	top	:	215px;
+ 
+}
+#scan_Finance {            
+	position:	absolute;
+	left	:	600px;
+	top	:	215px;
+ 
+}
+#xerox_logo {
+	position:	absolute;
+	left	:	850px;
+	top	:	500px;
+	width	:	116px;
+	height	:	44px;
+}
+#user_text1 {
+	position:	absolute;
+	left	:	800px;
+	top	:	25px;
+	width	:	100px;
+    color   :       #ffffff; 
+	text-align:	right;
+}
+#Level_img_0
+{
+	position	:	absolute;
+	top			:	90px;	
+	left		:	100px;
+	width		:	177px;
+    height 		:	44px;  
+}
+#Level_Select_0
+{
+	position	:	absolute;
+	top			:	90px;	
+	left		:	280px;  
+    font-size	:	x-large
+}
+#Level_img_1
+{
+	position	:	absolute;
+	top			:	90px;	
+	left		:	100px;
+	width		:	177px;
+    height 		:	44px;
+    right: 1190px;
+}
+#TextBox_ID
+{
+	position	:	absolute;
+	top			:	90px;	
+	left		:	280px; 
+    font-size	:	x-large
+}
+#Level_Select_1
+{
+	position	:	absolute;
+	top			:	90px;	
+	left		:	280px; 
+    font-size	:	x-large
+}
+#Level_img_2
+{
+	position	:	absolute;
+	position	:	absolute;
+		top		:	160px;	
+	left		:	100px;
+	width		:	177px;
+    height 		:	44px;  
+}
+#Level_Select_2
+{
+	position	:	absolute;
+	top		:	160px;	
+	left		:	280px;  
+    font-size	:	x-large
+}
+#Level_img_3
+{
+	position	:	absolute;
+	top		:	230px;	
+	left		:	100px;
+	width		:	177px;
+    height 		:	44px;  
+}
+#Level_Select_3
+{
+	position	:	absolute;
+	top		:	230px;	
+	left		:	280px; 
+    font-size	:	x-large
+}
+#Level_img_4
+{
+	position	:	absolute;
+	top		:	230px;	
+	left		:	598px;
+	width		:	177px;
+    height 		:	44px;  
+}
+#Level_Select_4
+{
+	position	:	absolute;
+	top		:	230px;	
+	left		:	778px;
+    font-size	:	x-large
+}
+#Level_img_5
+{
+	position	:	absolute;
+	top		:	300px;	
+	left		:	100px;
+	width		:	177px;
+    height 		:	44px;  
+}
+#Level_Select_5
+{
+	position	:	absolute;
+	top		:	300px;	
+	left		:	280px;
+    font-size	:	x-large
+}
+#Level_filename
+{
+	position	:	absolute;
+	top			:	370px;	
+	left		:	100px;
+    width		:	177px;
+    height 		:	44px; 
+}
+#TextBox_filename
+{
+	position	:	absolute;
+	top			:	370px;	
+	left		:   280px;  
+}
+#back_button_1
+{
+	position	:	absolute;
+	top			:	480px;	
+	left		:	80px;
+	width		:	139px;
+    height 		:	55px;  
+}
+#start_scan_button_1
+{
+	position	:	absolute;
+	top			:	480px;	
+    left		:	440px;
+	width		:	139px;
+    height 		:	55px;  
+}
+#level_01_select
+{
+	position	:	absolute;
+	top			:	230px;	
+	left		:	200px;
+	width: 18px;
+	height: 14px;
+}
+#level_02_select
+{
+	position	:	absolute;
+	top			:	230px;	
+	left		:	200px;
+	width: 18px;
+	height: 14px;
+}
+#level_03_select
+{
+	position	:	absolute;
+	top			:	230px;	
+	left		:	200px;
+	height: 14px;
+}
+#level_04_select
+{
+	position	:	absolute;
+	top			:	230px;	
+	left		:	200px;
+	width: 18px;
+	height: 14px;
+}
+#level_05_select
+{
+	position	:	absolute;
+	top			:	230px;	
+	left		:	200px;
+	width: 18px;
+	height: 14px;
+}
+#level_06_select
+{
+	position	:	absolute;
+	top			:	230px;	
+	left		:	200px;
+	width: 18px;
+	height: 14px;
+}
+#title_text2 {
+	position:	absolute;
+	left	:	320px;
+	top	:	15px;
+    color   :       #ffffff; 
+	text-align:	left;
+	font-size	:	xx-large
+}
+#errorMsg_Level_3
+{
+	position	:	absolute;
+	top			:	420px;	
+	left		:	280px;
+}
+#color_mode
+{
+	position	:	absolute;
+	top			:	100px;	
+	left		:	80px;
+	width		:	121px;
+    height 		:	43px;  
+}
+#color_mode_select
+{
+	position	:	absolute;
+	top			:	100px;	
+	left		:	205px;
+	width		:	200px;
+    height 		:	40px;  
+    font-size	:	x-large
+}
+
+#duplex
+{
+	position	:	absolute;
+	top			:	100px;	
+	left		:	570px;
+	width		:	121px;
+    height 		:	43px;  
+}
+#duplex_select
+{
+	position	:	absolute;
+	top			:	100px;	
+	left		:	695px;
+	width		:	200px;
+    height 		:	40px;  
+    font-size	:	x-large
+}
+#imageMode
+{
+	position	:	absolute;
+	top			:	170px;	
+	left		:	80px;
+	width		:	121px;
+    height 		:	43px;  
+}
+#imageMode_select
+{
+	position	:	absolute;
+	top			:	170px;	
+	left		:	205px;
+	width		:	200px;
+    height 		:	40px;  
+    font-size	:	x-large
+}
+
+#darkness
+{
+	position	:	absolute;
+	top			:	170px;	
+	left		:	570px;
+	width		:	121px;
+    height 		:	43px;  
+}
+#darkness_select
+{
+	position	:	absolute;
+	top			:	170px;	
+	left		:	695px;
+	width		:	200px;
+    height 		:	40px;  
+    font-size	:	x-large
+}
+#resolution
+{
+	position	:	absolute;
+	top			:	240px;	
+	left		:	80px;
+	width		:	121px;
+    height 		:	43px;  
+}
+#resolution_select
+{
+	position	:	absolute;
+	top			:	240px;	
+	left		:	205px;
+	width		:	200px;
+    height 		:	40px;  
+    font-size	:	x-large
+}
+
+#size
+{
+	position	:	absolute;
+	top			:	240px;	
+	left		:	570px;
+	width		:	121px;
+    height 		:	43px;  
+}
+#size_select
+{
+	position	:	absolute;
+	top			:	240px;	
+	left		:	695px;
+	width		:	200px;
+    height 		:	40px;  
+    font-size	:	x-large
+}
+#ratio
+{
+	position	:	absolute;
+	top			:	310px;	
+	left		:	80px;
+	width		:	121px;
+    height 		:	43px;  
+}
+#ratio_select
+{
+	position	:	absolute;
+	top			:	310px;	
+	left		:	205px;
+	width		:	200px;
+    height 		:	40px;  
+    font-size	:	x-large
+}
+
+#mixed_size
+{
+	position	:	absolute;
+	top			:	310px;	
+	left		:	570px;
+	width		:	121px;
+    height 		:	43px;
+    right: 754px;
+}
+#mixed_size_select
+{
+	position	:	absolute;
+	top			:	310px;	
+	left		:	695px;
+	width		:	200px;
+    height 		:	40px;  
+    font-size	:	x-large
+}
+#next {
+    position: absolute;
+    left: 400px;
+    top: 180px;
+    width: 142px;
+    height: 136px;
+}
+#next
+{            
+	position:	absolute;
+	left	:	250px;
+	top	:	200px;
+	width	:	142px;	
+    height  :	136px;
+}
+#home
+{            
+	position:	absolute;
+	left	:	430px;
+	top	:	200px;
+	width	:	142px;	
+    height  :	136px;
+    bottom: 207px;
+}
